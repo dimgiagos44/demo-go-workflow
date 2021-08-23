@@ -1,0 +1,35 @@
+id: helloworld
+version: '1.0'
+specVersion: '0.7'
+name: Hello World Workflow
+description: Inject Hello World
+start: Hello State
+states:
+- name: Hello State
+  type: inject
+  data:
+    people: 
+    - fname: Dimitrios
+      lname: Giagkos
+      age: 24  
+    - fname: Chris
+      lname: Plakias
+      age: 49
+    - fname: Georgia
+      lname: Vlachou
+      age: 49
+    - fname: Eleftheria 
+      lname: Plakia
+      age: 13
+    vegetables:
+    - name: Tomato
+    - name: Orange
+    - name: Spinach
+  stateDataFilter: 
+    output: "${ .people }"
+  transition:
+    nextState: Bye State
+- name: Bye State
+  type: inject
+  end:
+    terminate: true
