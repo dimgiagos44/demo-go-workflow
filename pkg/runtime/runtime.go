@@ -41,6 +41,9 @@ func (r *Runtime) begin(st model.State) error {
 		fmt.Println("foreach")
 	case *model.ParallelState:
 		fmt.Println("parallel")
+	case *model.InjectState:
+		fmt.Println("inject")
+		//handleInjectState(state)
 	}
 	return nil
 }

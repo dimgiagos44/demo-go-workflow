@@ -22,6 +22,12 @@ func handleOperationState(state *model.OperationState) error {
 	return nil
 }
 
+func handleInjectState(state *model.InjectState) error {
+	fmt.Println("Inject", state.GetName())
+	//TODO 
+	return nil
+}
+
 func HandleDataBasedSwitch(state *model.DataBasedSwitchState, in []byte) error {
 	for _, cond := range state.DataConditions {
 		fmt.Println(cond.GetCondition())
