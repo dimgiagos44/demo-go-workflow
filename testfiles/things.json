@@ -1,0 +1,26 @@
+{
+	"people": [
+		{
+			"fname": "Dimitrios",
+			"lname": "Giagkos",
+			"age": 24
+		},
+		{
+			"fname": "John",
+                        "lname": "Doe",
+                        "age": 49
+
+		}
+	],
+	"vegetables": [
+		{
+			"name": "Tomato"
+		},
+		{
+			"name": "Orange"
+		},
+		{
+			"name": "Spinach"
+		}
+	]
+}

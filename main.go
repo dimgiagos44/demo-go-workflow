@@ -7,7 +7,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Execution starts here!")
-	r := run.NewRuntime("/home/dgiagos/goprojects/demo-go-workflow/testfiles/test-workflow.yaml")
+	fmt.Println("Runtime execution starts here!-----------------------")
+	r := run.NewRuntime("./testfiles/test-workflow.yaml", run.WithInputFile("./testfiles/applicant.json"))
 	r.Start()
+	fmt.Println("Runtime execution ends here!-------------------------")
 }

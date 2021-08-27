@@ -8,28 +8,40 @@ states:
 - name: Hello State
   type: inject
   data:
-    people: 
-    - fname: Dimitrios
+    people:
+    - fname: Dimitris
       lname: Giagkos
-      age: 24  
-    - fname: Chris
-      lname: Plakias
-      age: 49
-    - fname: Georgia
-      lname: Vlachou
-      age: 49
-    - fname: Eleftheria 
-      lname: Plakia
-      age: 13
+      age: 24
     vegetables:
-    - name: Tomato
-    - name: Orange
-    - name: Spinach
-  stateDataFilter: 
-    output: "${ .people }"
+    - name: Pineapple
+      color: Yellow
+  transition: 
+    nextState: Event State
+- name: Op State
+  type: operation
+  actionMode: sequential
+  actions:
+  - functionRef:
+    refName: sendRejectionEmailFunction
+    arguments:
+      people: "${ .people }"
+  end:
+    terminate: true
+- name: Event State
+  type: event
+  onEvents:
+  - eventRefs:
+    - HighBodyTemperature
+    actions:
+    - functionRef:
+        refName: sendTylenolOrder
+        arguments:
+          people: "${ .people }"
   transition:
     nextState: Bye State
 - name: Bye State
   type: inject
+  stateDataFilter: 
+    input: "${ .people }"  
   end:
     terminate: true

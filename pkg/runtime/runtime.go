@@ -14,7 +14,7 @@ func (r *Runtime) Start() {
 
 func (r *Runtime) exec() {
 	initState := r.Workflow.States[0]
-	fmt.Println(r.InputFile)
+	//fmt.Println(r.InputFile)
 	if r.InputFile != "" {
 		jsonFile, _ := os.Open(r.InputFile)
 		byteValue, _ := ioutil.ReadAll(jsonFile)
@@ -27,23 +27,23 @@ func (r *Runtime) exec() {
 func (r *Runtime) begin(st model.State) error {
 	switch st.(type) {
 	case *model.EventState:
-		fmt.Println("event")
-		// handleEventState()
+		//fmt.Println("event")
+		handleEventState(st.(*model.EventState), r)
 	case *model.OperationState:
-		fmt.Println("operation")
-		// handleOperationState(state)
+		//fmt.Println("operation")
+		handleOperationState(st.(*model.OperationState), r)
 	case *model.EventBasedSwitchState:
 		fmt.Println("event based switch")
 	case *model.DataBasedSwitchState:
 		fmt.Println("data based switch")
-		HandleDataBasedSwitch(st.(*model.DataBasedSwitchState), r.lastOutput)
+		HandleDataBasedSwitch(st.(*model.DataBasedSwitchState), r.lastOutput, r)
 	case *model.ForEachState:
 		fmt.Println("foreach")
 	case *model.ParallelState:
 		fmt.Println("parallel")
 	case *model.InjectState:
-		fmt.Println("inject")
-		//handleInjectState(state)
+		//fmt.Println("inject")
+		HandleInjectState(st.(*model.InjectState), r)
 	}
 	return nil
 }

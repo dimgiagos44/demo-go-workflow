@@ -9,26 +9,61 @@ import (
 	"github.com/serverlessworkflow/sdk-go/model"
 )
 
-func handleEventState(state *model.EventState) error {
-	fmt.Println("Event:", state.GetName())
-	//TODO
+
+//event state handler
+func handleEventState(state *model.EventState, r *Runtime) error {
+	fmt.Println("--> Current state Event:", state.GetName())
+	if (state.GetTransition() != nil) {
+		newStateName := state.Transition.NextState
+		ns := findNewStateObject(newStateName, r)
+		fmt.Println("New State = ", ns)
+		r.begin(ns)
+		return nil
+	}
+	fmt.Println("This is the end..")
 	return nil
 }
 
-func handleOperationState(state *model.OperationState) error {
-	fmt.Println("Operation:", state.GetName())
+func handleOperationState(state *model.OperationState, r *Runtime) error {
+	fmt.Println("--> Current state Operation:", state.GetName())
 	// TODO
 	// Check for the action Mode (default: sequential)
+	if (state.ActionMode == "sequential") {
+		fmt.Println("This OperationState is sequential")
+		return nil
+	}
+	fmt.Println("This OperationState is parallel")
 	return nil
 }
 
-func handleInjectState(state *model.InjectState) error {
-	fmt.Println("Inject", state.GetName())
-	//TODO 
+//inject state handler
+func HandleInjectState(state *model.InjectState, r *Runtime) error {
+	fmt.Println("--> Current state Inject: ", state.GetName())
+	if (state.GetTransition() != nil) {
+		newStateName  := state.Transition.NextState
+		ns := findNewStateObject(newStateName, r)
+		//fmt.Println("New State Name = ", newStateName)
+		fmt.Println("New State = ", ns)
+		r.begin(ns)
+		return nil
+	}
+	fmt.Println("This is the end..")
 	return nil
 }
 
-func HandleDataBasedSwitch(state *model.DataBasedSwitchState, in []byte) error {
+func findNewStateObject(name string, r *Runtime) model.State {
+	fmt.Println("Searching the next State: ")
+	states := r.Workflow.States
+	for _, state := range states {
+		if  (name == state.GetName()){
+			return state
+		}
+	}
+	fmt.Println("Next state not found")
+	return nil
+}
+
+func HandleDataBasedSwitch(state *model.DataBasedSwitchState, in []byte, r *Runtime) error {
 	for _, cond := range state.DataConditions {
 		fmt.Println(cond.GetCondition())
 		switch cond.(type) {
@@ -44,6 +79,12 @@ func HandleDataBasedSwitch(state *model.DataBasedSwitchState, in []byte) error {
 			// fmt.Printf("%v\n", v)
 			if v.(bool) {
 				fmt.Println("GOTO", cond.(*model.TransitionDataCondition).Transition.NextState)
+				newStateName  := cond.(*model.TransitionDataCondition).Transition.NextState
+				//ns := r.Workflow.States[2].(*model.InjectState)
+				ns := findNewStateObject(newStateName, r)
+				//fmt.Println("New State Name = ", newStateName)
+				fmt.Println("New State = ", ns)
+				r.begin(ns)
 
 			} else {
 				fmt.Println("Not True")
@@ -59,6 +100,7 @@ func HandleDataBasedSwitch(state *model.DataBasedSwitchState, in []byte) error {
 			// InferType()
 		case *model.EndDataCondition:
 			fmt.Println(cond.(*model.EndDataCondition).End)
+			fmt.Println("This is the end..")
 			// this is the end, you know
 		}
 

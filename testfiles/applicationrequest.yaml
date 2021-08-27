@@ -1,0 +1,36 @@
+id: applicantrequest
+version: '1.0'
+name: Applicant Request Decision Workflow
+description: Determine if applicant request is valid
+start: CheckApplication
+functions:
+  - name: sendRejectionEmailFunction
+    operation: http://myapis.org/applicationapi.json#emailRejection
+states:
+  - name: CheckApplication
+    type: switch
+    dataConditions:
+      - condition: ".applicant | .age >= 18"
+        transition: StartApplication
+      - condition: ".applicant | .age < 18"
+        transition: ByeApplication
+    default:
+      transition: RejectApplication
+  - name: StartApplication
+    type: subflow
+    workflowId: startApplicationWorkflowId
+    end: true
+  - name: ByeApplication
+    type: inject
+    data: 
+        result: None
+    end: true
+  - name: RejectApplication
+    type: operation
+    actionMode: sequential
+    actions:
+      - functionRef:
+          refName: sendRejectionEmailFunction
+          arguments:
+            applicant: ".applicant"
+    end: true
