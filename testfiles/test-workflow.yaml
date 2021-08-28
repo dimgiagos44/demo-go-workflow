@@ -15,8 +15,11 @@ states:
     vegetables:
     - name: Pineapple
       color: Yellow
+  stateDataFilter:
+    input: "${ .input-test }"
+    output: "${ .output-test }"
   transition: 
-    nextState: Event State
+    nextState: Bye State
 - name: Op State
   type: operation
   actionMode: sequential
@@ -42,6 +45,7 @@ states:
 - name: Bye State
   type: inject
   stateDataFilter: 
-    input: "${ .people }"  
+    input: "${ .people }"
+    output: "${ .people2}"  
   end:
     terminate: true

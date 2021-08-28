@@ -26,7 +26,7 @@ func handleEventState(state *model.EventState, r *Runtime) error {
 
 func handleOperationState(state *model.OperationState, r *Runtime) error {
 	fmt.Println("--> Current state Operation:", state.GetName())
-	// TODO
+
 	// Check for the action Mode (default: sequential)
 	if (state.ActionMode == "sequential") {
 		fmt.Println("This OperationState is sequential")
@@ -39,12 +39,18 @@ func handleOperationState(state *model.OperationState, r *Runtime) error {
 //inject state handler
 func HandleInjectState(state *model.InjectState, r *Runtime) error {
 	fmt.Println("--> Current state Inject: ", state.GetName())
+	injectFilter := state.GetStateDataFilter()
+	injectData := state.Data
+	fmt.Println("Data of inject state: ", injectData)
+	//fmt.Printf("Type of filter variable is: %T \n", injectFilter)
+	fmt.Println("Input filter: ", injectFilter.Input, " Output filter: ", injectFilter.Output)
 	if (state.GetTransition() != nil) {
 		newStateName  := state.Transition.NextState
-		ns := findNewStateObject(newStateName, r)
-		//fmt.Println("New State Name = ", newStateName)
-		fmt.Println("New State = ", ns)
-		r.begin(ns)
+		ns := findNewStateObject(newStateName, r) //type of model.State
+		ns2 := ns.(*model.InjectState) //typecasting so as to be compatible
+		ns2.Data = injectData
+		fmt.Println("ns2 : ", ns2)
+		r.begin(ns2)
 		return nil
 	}
 	fmt.Println("This is the end..")
@@ -52,7 +58,7 @@ func HandleInjectState(state *model.InjectState, r *Runtime) error {
 }
 
 func findNewStateObject(name string, r *Runtime) model.State {
-	fmt.Println("Searching the next State: ")
+	fmt.Println("Searching the next State by name.. ")
 	states := r.Workflow.States
 	for _, state := range states {
 		if  (name == state.GetName()){
