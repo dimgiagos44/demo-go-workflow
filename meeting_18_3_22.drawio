@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-18T10:08:16.604Z" host="app.diagrams.net" agent="5.0 (X11)" etag="3MkydGyzMM4KEliXxJWB" version="16.5.6" type="github">
+<mxfile modified="2022-03-18T10:10:53.604Z" host="app.diagrams.net" agent="5.0 (X11)" etag="PyD6ZFZxcs0WDE8kZ5wi" version="16.5.6" type="github">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
     <mxGraphModel dx="1350" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -117,6 +117,9 @@
         </mxCell>
         <mxCell id="orFexbNTXFUOZaCGS8_f-46" value="davinci&lt;br&gt;&lt;div&gt;state&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" parent="1" vertex="1">
           <mxGeometry x="31" y="550.5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Kr__zwhLty9OxRlOiyr0-8" value="State - Configuration&lt;br&gt;&lt;div&gt;Map&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="439" width="151" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
