@@ -1,4 +1,4 @@
-<mxfile modified="2022-03-18T09:32:58.810Z" host="app.diagrams.net" agent="5.0 (X11)" etag="D7JQbGXzmL7KcuC-WOIV" version="16.5.6" type="github">
+<mxfile modified="2022-03-18T09:38:21.520Z" host="app.diagrams.net" agent="5.0 (X11)" etag="8IJC0tJqS1uTUOiLe6gV" version="16.5.6" type="github">
   <diagram id="7gcUSTIZ7YSJ5vT40chW" name="Page-1">
     <mxGraphModel dx="1350" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -93,6 +93,28 @@
         </mxCell>
         <mxCell id="orFexbNTXFUOZaCGS8_f-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="orFexbNTXFUOZaCGS8_f-17" target="orFexbNTXFUOZaCGS8_f-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="orFexbNTXFUOZaCGS8_f-41" value="state&lt;br&gt;&lt;div&gt;converter&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#067F68;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sagemaker_model;" vertex="1" parent="1">
+          <mxGeometry x="74" y="103" width="94" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="orFexbNTXFUOZaCGS8_f-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;width=29;endSize=7.33;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="208" y="149.5" as="sourcePoint" />
+            <mxPoint x="272" y="149.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="orFexbNTXFUOZaCGS8_f-43" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="639" y="246" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orFexbNTXFUOZaCGS8_f-44" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="453" y="246" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orFexbNTXFUOZaCGS8_f-45" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="546" y="248" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="orFexbNTXFUOZaCGS8_f-46" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="360" y="246" width="50" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
