@@ -1,1 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T20:10:03.894Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.13" etag="XmaQkkMYKLgUu8mt3K9j" type="github"><diagram name="Page-1" id="YcGY-aNjsONrmCgvcuGW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-30T20:25:01.073Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LRZa0UkCeHSW88Qyib8O" version="20.8.13" type="github">
+  <diagram name="Page-1" id="YcGY-aNjsONrmCgvcuGW">
+    <mxGraphModel dx="2284" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-31" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="420" width="524" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-30" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-63" y="109" width="885" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;" vertex="1" parent="1">
+          <mxGeometry x="104" y="213" width="61" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-9" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;" vertex="1" parent="1">
+          <mxGeometry x="208" y="213" width="61" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-10" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;" vertex="1" parent="1">
+          <mxGeometry x="312" y="211" width="61" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-11" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;" vertex="1" parent="1">
+          <mxGeometry x="534" y="211" width="61" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-12" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/dot-more-menu-hide-128.png" vertex="1" parent="1">
+          <mxGeometry x="431" y="231" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-13" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="131" y="272" width="39" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-14" value="FPGA&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="341" y="269" width="46" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-15" value="FPGA&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="513" y="272" width="46" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-16" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="577" y="272" width="39" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="rc2m5ZZBlgUbXkuzsj7U-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258" y="413" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="127" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-17" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="87" y="429" width="80" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-18" value="GPU Jetson&lt;br&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#DA4026;" vertex="1" parent="1">
+          <mxGeometry x="230" y="507" width="34" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-21" value="FPGA" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#7FBA42;" vertex="1" parent="1">
+          <mxGeometry x="486" y="505" width="27" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-23" value="GPU Jetson&lt;br&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#DA4026;" vertex="1" parent="1">
+          <mxGeometry x="422" y="468" width="34" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-24" value="FPGA" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#7FBA42;" vertex="1" parent="1">
+          <mxGeometry x="308" y="468" width="27" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-25" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/dot-more-menu-hide-128.png" vertex="1" parent="1">
+          <mxGeometry x="356" y="550" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.05;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rc2m5ZZBlgUbXkuzsj7U-27" target="rc2m5ZZBlgUbXkuzsj7U-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="463" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="41" y="460" />
+              <mxPoint x="77" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-27" value="AIF&lt;br&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.message2;" vertex="1" parent="1">
+          <mxGeometry x="15.000000000000004" y="516" width="47.3" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-33" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" target="rc2m5ZZBlgUbXkuzsj7U-30">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="249" y="409" as="sourcePoint" />
+            <mxPoint x="349" y="409" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rc2m5ZZBlgUbXkuzsj7U-34" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;dashed=1;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rc2m5ZZBlgUbXkuzsj7U-31">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="251" y="409" as="sourcePoint" />
+            <mxPoint x="433.75" y="380.25" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
