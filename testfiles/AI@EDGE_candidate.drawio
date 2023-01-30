@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T20:25:01.073Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LRZa0UkCeHSW88Qyib8O" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T21:15:31.280Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_UePZnUqy1e7cuajux60" version="20.8.13" type="github">
   <diagram name="Page-1" id="YcGY-aNjsONrmCgvcuGW">
     <mxGraphModel dx="2284" dy="770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,13 +49,13 @@
           <mxGeometry x="87" y="429" width="80" height="48" as="geometry" />
         </mxCell>
         <mxCell id="rc2m5ZZBlgUbXkuzsj7U-18" value="GPU Jetson&lt;br&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#DA4026;" vertex="1" parent="1">
-          <mxGeometry x="230" y="507" width="34" height="53" as="geometry" />
+          <mxGeometry x="257" y="561" width="34" height="53" as="geometry" />
         </mxCell>
         <mxCell id="rc2m5ZZBlgUbXkuzsj7U-21" value="FPGA" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#7FBA42;" vertex="1" parent="1">
-          <mxGeometry x="486" y="505" width="27" height="52" as="geometry" />
+          <mxGeometry x="516" y="546.5" width="27" height="52" as="geometry" />
         </mxCell>
         <mxCell id="rc2m5ZZBlgUbXkuzsj7U-23" value="GPU Jetson&lt;br&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#DA4026;" vertex="1" parent="1">
-          <mxGeometry x="422" y="468" width="34" height="53" as="geometry" />
+          <mxGeometry x="448" y="502" width="34" height="53" as="geometry" />
         </mxCell>
         <mxCell id="rc2m5ZZBlgUbXkuzsj7U-24" value="FPGA" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.server_generic;fillColor=#7FBA42;" vertex="1" parent="1">
           <mxGeometry x="308" y="468" width="27" height="52" as="geometry" />
