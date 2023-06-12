@@ -1,4 +1,4 @@
-<mxfile modified="2023-06-12T09:12:18.731Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nDNTqd_jQyCzW2R-eXvZ" version="21.2.9" type="github">
+<mxfile modified="2023-06-12T09:46:27.450Z" host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Z2JmdD8JufHkubujPAWv" version="21.2.9" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1362" dy="797" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry x="359.36" y="429" width="38" height="38" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-64" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;html=1;fontSize=8;shape=mxgraph.eip.messageChannel;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="291" y="621" width="65" height="19" as="geometry" />
+          <mxGeometry x="292" y="628" width="65" height="19" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-63" target="BC1pH_tSsB2GNTQYTqeA-93">
           <mxGeometry relative="1" as="geometry">
@@ -123,27 +123,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-63" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Network_watcher.svg;" vertex="1" parent="1">
-          <mxGeometry x="333" y="613" width="35" height="35" as="geometry" />
+          <mxGeometry x="334" y="620" width="35" height="35" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-65" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;html=1;fontSize=8;shape=mxgraph.eip.messageChannel;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="228" y="617.5" width="80" height="26" as="geometry" />
+          <mxGeometry x="229" y="624.5" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-73" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Edge node 2&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.node" vertex="1" parent="1">
           <mxGeometry x="528.36" y="454" width="44" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="BC1pH_tSsB2GNTQYTqeA-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.753;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="BC1pH_tSsB2GNTQYTqeA-87">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="572.36" y="429" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="572.36" y="375" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BC1pH_tSsB2GNTQYTqeA-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.593;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-119" target="BC1pH_tSsB2GNTQYTqeA-87">
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.988;entryY=0.691;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-119" target="BC1pH_tSsB2GNTQYTqeA-87">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="835.36" y="429" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="825.36" y="362" />
+              <mxPoint x="825" y="362" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -151,7 +143,7 @@
           <mxGeometry x="664.36" y="476" width="35" height="36" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-87" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Cloud node&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#FF3333;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.node" vertex="1" parent="1">
-          <mxGeometry x="626.36" y="314" width="64.8" height="81" as="geometry" />
+          <mxGeometry x="624" y="307" width="64.8" height="81" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-60" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lookout_for_metrics;" vertex="1" parent="1">
           <mxGeometry x="670.36" y="302" width="42" height="42" as="geometry" />
@@ -170,7 +162,7 @@
           <mxGeometry x="371.63" y="544" width="34.73" height="43" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-94" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Network interface 1&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="238" y="644" width="109" height="21.5" as="geometry" />
+          <mxGeometry x="239" y="651" width="109" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-106" value="" style="strokeWidth=1;outlineConnect=0;dashed=0;align=center;html=1;fontSize=8;shape=mxgraph.eip.messageChannel;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="529.36" y="628" width="65" height="19" as="geometry" />
@@ -201,13 +193,16 @@
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-111" value="&lt;font face=&quot;Georgia&quot;&gt;&lt;b&gt;Network interface 2&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="493.36" y="651" width="109" height="21.5" as="geometry" />
         </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.765;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-115" target="BC1pH_tSsB2GNTQYTqeA-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-115" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.machine_learning;" vertex="1" parent="1">
           <mxGeometry x="552.36" y="425" width="38" height="38" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-116" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Outlier detection&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="592.36" y="411" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BC1pH_tSsB2GNTQYTqeA-118" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Edge node 1&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.node" vertex="1" parent="1">
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-118" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Edge node N&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.node" vertex="1" parent="1">
           <mxGeometry x="781.36" y="454" width="44" height="55" as="geometry" />
         </mxCell>
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-119" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4AB29A;gradientDirection=north;fillColor=#116D5B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.machine_learning;" vertex="1" parent="1">
@@ -248,8 +243,61 @@
         <mxCell id="BC1pH_tSsB2GNTQYTqeA-129" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Georgia&quot;&gt;Analytics&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="708.1800000000001" y="312" width="69" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="BC1pH_tSsB2GNTQYTqeA-130" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/apps/daemons.png" vertex="1" parent="1">
-          <mxGeometry x="154" y="688" width="77" height="77" as="geometry" />
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=2.7;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-130" target="BC1pH_tSsB2GNTQYTqeA-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="184" y="631" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-132" value="stream&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="BC1pH_tSsB2GNTQYTqeA-131">
+          <mxGeometry x="-0.0886" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-130" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Traffic generator 1&lt;/font&gt;&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/apps/daemons.png" vertex="1" parent="1">
+          <mxGeometry x="144" y="693" width="77" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=2.7;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-174">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465.36" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="418.36" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-173" value="stream&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="BC1pH_tSsB2GNTQYTqeA-172">
+          <mxGeometry x="-0.0886" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-174" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Traffic generator 2&lt;/font&gt;&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/apps/daemons.png" vertex="1" parent="1">
+          <mxGeometry x="378.36" y="697" width="77" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=2.7;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BC1pH_tSsB2GNTQYTqeA-177">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708.1800000000001" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="661.1800000000001" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-176" value="stream&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="BC1pH_tSsB2GNTQYTqeA-175">
+          <mxGeometry x="-0.0886" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-177" value="&lt;b&gt;&lt;font face=&quot;Georgia&quot;&gt;Traffic generator N&lt;/font&gt;&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/crystalproject/128x128/apps/daemons.png" vertex="1" parent="1">
+          <mxGeometry x="621.1800000000001" y="697" width="77" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-179" value="" style="shape=mxgraph.signs.tech.camera_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="207" y="730" width="40" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-180" value="" style="shape=mxgraph.signs.tech.camera_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="444" y="730" width="40" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="BC1pH_tSsB2GNTQYTqeA-181" value="" style="shape=mxgraph.signs.tech.camera_2;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="685" y="736" width="40" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
